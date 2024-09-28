@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #228ee6;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #e67e22;
+}
+
+button {
+  padding: 10px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #219653;
+}
+
+.resume-container {
+  font-family: 'Arial, sans-serif';
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.resume-container h1 {
+  color: #4c91d2;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.resume-container h2 {
+  color: #4c91d2;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.resume-container h3 {
+  color: #175fca;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.resume-container hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+.resume-container p {
+  color: #4c91d2;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.back-button{
+
+  margin-left: 30px;
+}
+.resume-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resume-container button:hover {
+  background-color: #0056b3;
+}
+
+.about-container {
+  margin: 20px 0;
+}
+
+.about-container h3 {
+  margin-bottom: 10px;
+}
+
+.about-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.about-container button {
+  margin-top: 10px;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.about-container button:hover {
+  background-color: #2980b9;
+}
