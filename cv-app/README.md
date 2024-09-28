@@ -1,1 +1,1 @@
-This is a basic cv aap using React usestate
+This is a basic cv app using React usestate
