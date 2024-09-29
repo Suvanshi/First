@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   const [todos, setTodos] = useState([]); // State for the list of todos
@@ -28,6 +29,7 @@ function App() {
       <h1>Professional Todo App</h1>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
+      <Footer/>
     </div>
   );
 }
