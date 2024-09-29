@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Professional Todo App</h1>
+      <h1>TaskOrbit </h1>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
       <Footer/>
