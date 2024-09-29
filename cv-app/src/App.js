@@ -6,6 +6,7 @@ import PracticalExperience from './components/PracticalExperience';
 import Resume from './components/Resume';
 import About from './components/About';
 import './styles/FormStyles.css';
+import Footer from './components/Footer';
 
 function App() {
   const [resumeData, setResumeData] = useState({
@@ -72,8 +73,10 @@ function App() {
             element={<Resume resumeData={resumeData} />}
           />
         </Routes>
+        <Footer/>
       </div>
     </Router>
+
   );
 }
 

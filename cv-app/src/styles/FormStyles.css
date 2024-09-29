@@ -3,7 +3,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #86a5bc;
 }
 
 .app-container {
@@ -145,4 +145,36 @@ button:hover {
 
 .about-container button:hover {
   background-color: #2980b9;
+}
+
+/* Ensures the page takes full height */
+
+
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  color: #343a40; /* Dark text color */
+  text-align: center;
+  padding: 40px;
+  width: 90%;
+  border-top: 1px solid #dee2e6; /* Light border at the top */
+  margin-bottom: 0;
+  position: relative;
+  margin-top: 6px;
+  bottom: 0;
+  background-color: #3a0b6f8f;
+  color: rgb(241, 241, 226);
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-content a {
+  color: #007bff; /* Bootstrap primary color */
+  text-decoration: none; /* No underline */
+}
+
+.footer-content a:hover {
+  text-decoration: underline; /* Underline on hover */
 }

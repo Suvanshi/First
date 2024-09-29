@@ -21,6 +21,7 @@ function GeneralInfo({ onSubmit }) {
   };
 
   return (
+    <div>
     <form onSubmit={handleSubmit} className="general-info-form">
       <h2>General Information</h2>
       <input
@@ -49,6 +50,8 @@ function GeneralInfo({ onSubmit }) {
       />
       <button type="submit">Next</button>
     </form>
+  
+    </div>
   );
 }
 

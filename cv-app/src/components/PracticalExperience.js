@@ -32,6 +32,7 @@ function PracticalExperience({ onSubmit }) {
   };
 
   return (
+    <div>
     <form onSubmit={handleSubmit} className="practical-experience-form">
       <h2>Practical Experience</h2>
       <input
@@ -76,6 +77,7 @@ function PracticalExperience({ onSubmit }) {
       <button type="submit">Next</button>
       <button type="button" onClick={handleSkip}>Skip</button>
     </form>
+    </div>
   );
 }
 
