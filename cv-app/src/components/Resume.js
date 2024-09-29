@@ -49,7 +49,7 @@ function Resume({ resumeData }) {
         <p>{about.bio}</p>
         <hr />
         <h3>Education</h3>
-        <p><strong>School Name:</strong> {education.schoolName}</p>
+        <p><strong>Institution Name:</strong> {education.schoolName}</p>
         <p><strong>Course Name:</strong> {education.titleOfStudy}</p>
         <p><strong>Date of Completion:</strong> {education.dateOfStudy}</p>
         <hr />
